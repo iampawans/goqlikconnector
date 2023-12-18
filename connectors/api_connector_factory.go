@@ -1,6 +1,6 @@
 package connectors
 
-import "github.com/your-username/goqlikconnector/config"
+import "github.com/iampawans/goqlikconnector/config"
 
 // APIConnectorFactory implements the ConnectorFactory interface for creating API connectors.
 type APIConnectorFactory struct{}
