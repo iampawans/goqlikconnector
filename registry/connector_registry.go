@@ -1,7 +1,7 @@
 package registry
 
 import (
-	"github.com/your-username/goqlikconnector/connectors"
+	"github.com/iampawans/goqlikconnector/connectors"
 )
 
 // ConnectorRegistry keeps track of available connectors and their factories.
