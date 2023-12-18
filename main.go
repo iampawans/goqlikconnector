@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/your-username/goqlikconnector/config"
-	"github.com/your-username/goqlikconnector/connectors"
-	"github.com/your-username/goqlikconnector/registry"
+	"github.com/iampawans/goqlikconnector/config"
+	"github.com/iampawans/goqlikconnector/connectors"
+	"github.com/iampawans/goqlikconnector/registry"
 )
 
 func main() {
