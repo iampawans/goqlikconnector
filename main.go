@@ -11,7 +11,7 @@ import (
 func main() {
 	// Initialize the connector registry
 	registry := &registry.ConnectorRegistry{
-		factories: make(map[string]connectors.ConnectorFactory),
+		Factories: make(map[string]connectors.ConnectorFactory),
 	}
 
 	// Register API connector factory
@@ -22,8 +22,9 @@ func main() {
 		Type: "API",
 		Name: "GithubAPI",
 		ConfigParams: map[string]interface{}{
-			"Endpoint": "https://github.com/iampawans/golang",
-			// Additional API-specific parameters
+			"Endpoint":   "https://api.github.com/repos/iampawans/golang",
+			"HTTPMethod": "GET", // GitHub API requires GET for public access
+			// Additional GitHub API-specific parameters (e.g., authentication)
 		},
 	}
 
